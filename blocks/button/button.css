@@ -1,0 +1,27 @@
+.button {
+    background: #0278fe;
+    border-radius: 4px;
+    padding: 13px 20px;
+    width: 256px;
+    border-style: none;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    margin-top: 61px;
+  }
+
+  .button:hover {
+    background: #0063D2;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 320px) {
+    .button {
+      max-width: 248px;
+      margin: 0 auto;
+    }
+
+  }
