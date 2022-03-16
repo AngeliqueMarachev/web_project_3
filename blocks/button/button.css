@@ -18,10 +18,10 @@
     cursor: pointer;
   }
 
+
   @media screen and (max-width: 320px) {
     .button {
       max-width: 248px;
-      margin: 0 auto;
     }
 
   }
