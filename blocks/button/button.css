@@ -2,7 +2,8 @@
     background: #0278fe;
     border-radius: 4px;
     padding: 13px 20px;
-    width: 256px;
+    width: max-content;
+    height: max-content;
     border-style: none;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
@@ -11,6 +12,7 @@
     line-height: 22px;
     color: white;
     margin-top: 61px;
+    text-align: center;
   }
 
   .button:hover {
@@ -18,10 +20,13 @@
     cursor: pointer;
   }
 
-
-  @media screen and (max-width: 320px) {
-    .button {
-      max-width: 248px;
+  @media screen and (max-width: 9600px) {
+   .buttomn
     }
+  }
 
+  @media screen and (max-width: 600px) {
+    .button {
+      max-width: 288px;
+    }
   }
