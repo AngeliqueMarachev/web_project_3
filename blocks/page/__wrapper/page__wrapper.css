@@ -1,11 +1,11 @@
 .page__wrapper {
-    max-width: 1184px;
+    /* max-width: 984px; */
     margin: auto;
 }
 
 @media screen and (max-width: 960px) {
     .page__wrapper {
-        max-width: 720px;
+        max-width: 768px;
     }
 }
 

@@ -1,3 +1,8 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .button {
     background: #0278fe;
     border-radius: 4px;
@@ -13,6 +18,7 @@
     color: white;
     margin-top: 61px;
     text-align: center;
+    margin: 0 auto;
   }
 
   .button:hover {
@@ -21,8 +27,7 @@
   }
 
   @media screen and (max-width: 9600px) {
-   .buttomn
-    }
+  
   }
 
   @media screen and (max-width: 600px) {
