@@ -1,9 +1,11 @@
 .places {
   max-width: 984px;
-  margin-top: 92px;
-  margin-bottom: 93px;
+  margin-top: 12px;
   color: white;
   margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 .places__container {
@@ -17,26 +19,21 @@
 }
 
 .places__container:last-child {
-  padding-bottom: 90px;
+  padding-bottom: 92px;
 }
 
 .places__title {
-  font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: left;
-  margin-top: 92px;
+  margin-top: 80px;
   margin-bottom: 0;
   grid-area: title;
+  max-width: calc(460px / 2);
 }
 
 .places__website {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.12em;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -48,13 +45,14 @@
 }
 
 .places__website_title {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #aaaaaa;
 }
 
 .places__website_artist {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   margin: 0;
@@ -67,46 +65,28 @@
 }
 
 .places__description {
-  font-style: normal;
-  font-weight: normal;
+min-width: 484px;
   font-size: 18px;
   text-align: left;
   margin-bottom: 0;
-  line-height: 26px;
+  line-height: 29px;
   margin-top: 0;
   text-align: left;
   grid-area: description;
 }
 
-.places__button {
-  background: #0278fe;
-  border-radius: 4px;
-  padding: 13px 20px;
-  max-width: 256px;
-  border-style: none;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: white;
-  grid-area: button;
-  margin-right: 140px;
-}
-
-.places__button:hover {
-  background: #0063d2;
-  cursor: pointer;
+p:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 960px) {
   .places {
     margin-left: 24px;
-  
+    margin-right: 24px;
   }
 
   .places__container {
-    grid-template-columns: 352px 1fr;
+    grid-template-columns: 340px 1fr;
     grid-gap: 46px 28px;
   }
 
@@ -136,23 +116,24 @@
 
   .places__description {
     margin-top: 0;
+    font-size: 16px;
+    line-height: 26px;
+    min-width: 352px;
   }
 
   .places__button {
    margin: 0 auto;
+}
 }
 
 @media screen and (max-width: 600px) {
   .places {
     color: white;
     margin-left: 0;
-    max-width: 288px;
   }
 
   .places__container {
-    margin-right: 0;
     display: block;
-    gap: 20px;
   }
 
   .places__container:last-child {
@@ -160,12 +141,11 @@
   }
 
   .places__title {
-    font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     margin-top: 62px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     margin-left: 16px;
   }
 
@@ -178,8 +158,6 @@
   }
 
   .places__website_artist {
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     margin: 0;
@@ -187,38 +165,19 @@
 
   .places__image {
     min-width: 320px;
+    margin-bottom: 30px;
   }
 
   .places__description {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+    min-width: 288px;
     text-align: left;
     margin-bottom: 0;
-    line-height: 26px;
     margin-top: 0;
     margin-left: 16px;
-    /* grid-area: description; */
+    grid-area: description;
   }
 
-  .places__button {
-    background: #0278fe;
-    border-radius: 4px;
-    padding: 13px 20px;
-    max-width: 248px;
-    max-height: 48px;
-    border-style: none;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    color: white;
-    grid-area: button;
-    margin-left: 16px;
-  }
-
-  .places__button:hover {
-    background: #0063d2;
-    cursor: pointer;
+  .places__description:last-of-type {
+    margin-bottom: 30px;
   }
 }

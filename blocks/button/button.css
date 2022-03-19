@@ -18,7 +18,6 @@ a {
     color: white;
     margin-top: 61px;
     text-align: center;
-    margin: 0 auto;
   }
 
   .button:hover {
@@ -27,11 +26,15 @@ a {
   }
 
   @media screen and (max-width: 9600px) {
-  
+  .button {
+margin-top: 0;
+  }
   }
 
   @media screen and (max-width: 600px) {
     .button {
       max-width: 288px;
+        margin-top: 30px;
+        margin: 0 auto;
+       }
     }
-  }
