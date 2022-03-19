@@ -1,19 +1,21 @@
 # Project 3: From Homeland to Homeland
 ### Overview  
-* Intro  
-* Figma  
-* Images  
+Working with Figma as a brief for Project
+Working with Responsive Design
+Working with Grid Layout
+
   
-**Intro**    
+## Figma 
+## Responsive Layot 
   
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+This is a project by Angelique Marachev that showcases the hometowns of some of Practicum's employees. It was created using HTML and CSS, based on the design brief on Figma and all the elements are displayed correctly on popular screen sizes - 1280 / 768 / 320.
   
-**Figma**  
+## Grid Layouts
   
-* [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)  
+  This is the first time I have worked with grid-layouts.
+
+## Plan on improving the project
+
+In the future, I plan on updating the information and images to create a 100% unique project for my portfolio.
   
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!  
+ 
