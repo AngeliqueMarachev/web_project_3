@@ -65,10 +65,10 @@
   line-height: 22px;
   color: white;
   width: 137px;
-  height: 48px;
   margin: auto;
   margin-top: 32px;
   opacity: 1;
+  text-align: center;
 }
 
 .cover__button:hover {
