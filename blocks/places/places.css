@@ -44,7 +44,7 @@
   padding: 0;
 }
 
-.places__website_title {
+.places__website-title {
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.12em;
@@ -52,7 +52,7 @@
   color: #aaaaaa;
 }
 
-.places__website_artist {
+.places__website-artist {
   font-size: 18px;
   line-height: 22px;
   margin: 0;
@@ -157,7 +157,7 @@ p:last-child {
     margin-left: 16px;
   }
 
-  .places__website_artist {
+  .places__website-artist {
     font-size: 18px;
     line-height: 22px;
     margin: 0;
