@@ -6,6 +6,9 @@ Working with Grid Layout
 
   
 ## Figma 
+
+This project was designed accoring to brief provided on Figma. 
+
 ## Responsive Layot 
   
 This is a project by Angelique Marachev that showcases the hometowns of some of Practicum's employees. It was created using HTML and CSS, based on the design brief on Figma and all the elements are displayed correctly on popular screen sizes - 1280 / 768 / 320.
