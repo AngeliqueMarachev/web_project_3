@@ -46,12 +46,12 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  max-width: 280px;
+  min-width: 280px;
   margin: auto;
   margin-top: 32px;
   margin-bottom: 0;
-  white-space: pre;
   opacity: 1;
+
 }
 
 .cover__button {
@@ -103,8 +103,11 @@
   }
 
   .cover__address {
+    /* white-space:pre; */
+text-align:center;
     font-weight: 400;
     font-size: 14px;
+    
   }
 
   .cover__button {
