@@ -71,7 +71,6 @@ min-width: 484px;
   margin-bottom: 0;
   line-height: 29px;
   margin-top: 0;
-  text-align: left;
   grid-area: description;
 }
 
@@ -172,7 +171,6 @@ p:last-child {
   .places__description {
     min-width: 288px;
     text-align: left;
-    margin-bottom: 0;
     margin-top: 0;
     margin-left: 16px;
     grid-area: description;

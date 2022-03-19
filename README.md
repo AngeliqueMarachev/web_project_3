@@ -4,7 +4,6 @@ Working with Figma as a brief for Project
 Working with Responsive Design
 Working with Grid Layout
 
-  
 ## Figma 
 
 This project was designed accoring to brief provided on Figma. 
@@ -20,5 +19,9 @@ This is a project by Angelique Marachev that showcases the hometowns of some of 
 ## Plan on improving the project
 
 In the future, I plan on updating the information and images to create a 100% unique project for my portfolio.
+
+## Github link
+
+https://github.com/AngeliqueMarachev/web_project_3
   
  
