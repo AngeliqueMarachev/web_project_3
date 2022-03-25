@@ -82,6 +82,30 @@
   margin: 0;
 }
 
+.places__button {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background: #0278fe;
+  border-radius: 4px;
+  padding: 13px 20px;
+  width: max-content;
+  height: max-content;
+  border-style: none;
+  margin-top: 61px;
+  min-width: 248px;
+}
+
+.places__button:hover {
+  background: #0063d2;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1024px) {
   .places {
     margin-left: 24px;
@@ -136,6 +160,10 @@
     font-size: 16px;
     line-height: 26px;
   }
+
+  .places__button {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -185,6 +213,13 @@
     min-width: 288px;
     margin-left: 16px;
     margin-bottom: 30px;
+  }
+
+  .places__button {
+    display: block;
+    max-width: 288px;
+    margin-top: 30px;
+    margin: 0 auto;
   }
 }
 

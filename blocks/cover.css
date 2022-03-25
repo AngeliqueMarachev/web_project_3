@@ -56,6 +56,25 @@
   margin: 0;
 }
 
+.cover__button {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background: #0278fe;
+  border-radius: 4px;
+  padding: 13px 20px;
+  width: max-content;
+  height: max-content;
+  border-style: none;
+  margin-top: 61px;
+  min-width: 97px;
+}
+
 @media screen and (max-width: 960px) {
   .cover__item {
     margin: 0 auto;
@@ -66,6 +85,10 @@
 
   .cover__address {
     padding-bottom: 32px;
+  }
+
+  .cover__button {
+    max-width: 137px;
   }
 }
 
