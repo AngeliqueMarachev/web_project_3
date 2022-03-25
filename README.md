@@ -24,4 +24,3 @@ In the future, I plan on updating the information and images to create a 100% un
 
 https://github.com/AngeliqueMarachev/web_project_3
   
- 

@@ -97,10 +97,6 @@
   .places__website {
     max-width: fit-content;
   }
-
-  .places__description {
-    min-width: 288px;
-  }
 }
 
 @media screen and (max-width: 960px) {
