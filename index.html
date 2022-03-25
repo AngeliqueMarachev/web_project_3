@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <title>Homeland to Homeland</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
-    <div class="page">
-        <header class="header">
-          <img src="./logo.svg" alt="Logo Practicum Gallery" class="logo" />
-        </header>
-
+    <section class="page">
+      <header class="header">
+        <img src="./logo.svg" alt="Logo Practicum Gallery" class="logo" />
+      </header>
+      <main>
         <div class="lead">
           <h1 class="lead__title">From Homeland to Homeland</h1>
           <p class="lead__subtitle">
@@ -35,7 +35,7 @@
             participate in transforming and reshaping the conditions, thinking,
             and structures that shape and inform our lives.
           </p>
-          <p class="intro__quote intro__quote_person">— Joseph Beuys</p>
+          <p class="intro__source">— Joseph Beuys</p>
           <p class="intro__text">
             The town of Practicum has brought together professionals from
             different corners of the world. Today, Practicum Art Gallery is
@@ -49,7 +49,7 @@
           </p>
         </div>
 
-        <div class="gallery">
+        <section class="gallery">
           <ul class="gallery__grid">
             <li class="gallery__item">
               <img
@@ -100,7 +100,7 @@
               />
             </li>
           </ul>
-        </div>
+        </section>
 
         <section class="places">
           <div class="places__container">
@@ -111,15 +111,14 @@
                 Natalia Dolgushina, content producer
               </p>
             </div>
-            <div class="places__images">
               <img
                 src="./images/kyiv.png"
                 alt="Kyiv Ukraine"
                 class="places__image"
               />
-            </div>
+   
             <div class="places__description">
-              <p>
+              <p class="places__text">
                 Kyiv (or Kiev), Ukraine's capital, is a large city located on
                 the shores of the Dnipro river. Of course, no one in their right
                 mind would swim in the river, unless they grew up here, in which
@@ -137,13 +136,13 @@
                 of the right one.
               </p>
             </div>
-            <div class="button">
-              <a
-                href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                target="_blank"
-                >Buy this artwork as NFT</a
-              >
-            </div>
+
+            <a
+              class="button__link"
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              target="_blank"
+              >Buy this artwork as NFT</a
+            >
           </div>
 
           <div class="places__container">
@@ -155,15 +154,13 @@
                 Kseniya Glagoleva, project manager
               </p>
             </div>
-            <div class="places__images">
               <img
                 src="./images/criceith.png"
                 alt="Cricieth, Wales"
                 class="places__image"
               />
-            </div>
             <div class="places__description">
-              <p>
+              <p class="places__text">
                 The medieval ruin of Cricieth Castle overlooks the town below
                 from a rock that juts out into the sea. It is thought to have
                 been built by Llewelyn the Great in the 13th century. Some 900
@@ -181,13 +178,13 @@
                 to hold the office of Prime Minister of the UK.
               </p>
             </div>
-            <div class="button">
-              <a
-                href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                target="_blank"
-                >Buy this artwork as NFT</a
-              >
-            </div>
+
+            <a
+              class="button__link"
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              target="_blank"
+              >Buy this artwork as NFT</a
+            >
           </div>
 
           <div class="places__container">
@@ -198,15 +195,13 @@
                 Travis Turner, author and editor
               </p>
             </div>
-            <div class="places__images">
               <img
                 src="./images/berea.png"
                 alt="Berea, USA"
                 class="places__image"
               />
-            </div>
             <div class="places__description">
-              <p>
+              <p class="places__text">
                 Berea is a small town located in the central part of Kentucky.
                 The town is surrounded by beautiful forests and countryside.
                 It's known as the arts and crafts capital of the state, and
@@ -224,13 +219,13 @@
                 student receives a full-tuition scholarship.
               </p>
             </div>
-            <div class="button">
-              <a
-                href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                target="_blank"
-                >Buy this artwork as NFT</a
-              >
-            </div>
+
+            <a
+              class="button__link"
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              target="_blank"
+              >Buy this artwork as NFT</a
+            >
           </div>
 
           <div class="places__container">
@@ -241,15 +236,13 @@
                 Grevisse Kenguruka, tech editor
               </p>
             </div>
-            <div class="places__images">
               <img
                 src="./images/muramvya.png"
                 alt="Muramvya, Burundi"
                 class="places__image"
               />
-            </div>
             <div class="places__description">
-              <p>
+              <p class="places__text">
                 Muramvya is one of the 18 provinces of Burundi. In the kingdom
                 era, Muramvya was the royal capital and in 2007, because of its
                 cultural and natural landscape, it was added to the UNESCO World
@@ -274,34 +267,38 @@
                 the country.
               </p>
             </div>
-            <div class="button">
-              <a
-                href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                target="_blank"
-                >Buy this artwork as NFT</a
-              >
-            </div>
+
+            <a
+              class="button__link"
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              target="_blank"
+              >Buy this artwork as NFT</a
+            >
           </div>
         </section>
 
         <section class="cover">
           <div class="cover__item">
             <h2 class="cover__title">Visit us</h2>
-            <div class="cover__address">
-                <div>Year-round </div>
-                <div>Practicum Art Gallery</div> 
-                <div>404 Tim Berners-Lee Ave</div>
-            </div>
-            <div class="cover__button">
-              <a
-                href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                target="_blank"
-                >Buy tickets</a>
-        
+              <p class="cover__address">
+                Year-round &nbsp;
+                Practicum Art Gallery &nbsp;
+                404 Tim Berners-Lee Ave &nbsp;
+              </p>
+            
+            <a
+            class="button__link button__link_footer"
+            href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+            target="_blank"
+            >Buy tickets</a>
             </div>
           </div>
         </section>
-        <footer  class="footer">© 2022 Angelique Marachev</footer>
-    </div>
+      </main>
+      <footer class="footer">
+        <p>© 2022 Angelique Marachev</p>
+
+        </footer>
+      </section>
   </body>
 </html>

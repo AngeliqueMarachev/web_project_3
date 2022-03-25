@@ -1,12 +1,23 @@
 .footer {
-    color: white;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    margin: auto 0;
-    padding-top: 42px;
-    padding-bottom: 24px;
-    text-align: center;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: auto 0;
+  padding-top: 78px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  .footer {
+    padding-top: 74px;
   }
-  
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding-top: 50px;
+  }
+}
