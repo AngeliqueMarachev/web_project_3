@@ -100,7 +100,7 @@
 @media screen and (max-width: 600px) {
   .cover__item {
     max-height: 254px;
-    padding: 45px 16px 46px;
+    padding: 46px 16px 45px;
   }
 
   .cover__item::before {
@@ -113,8 +113,6 @@
     font-size: 32px;
     line-height: 35px;
     margin: auto;
-    margin-top: 46px;
-    margin-bottom: 14px;
   }
 
   .cover__address {

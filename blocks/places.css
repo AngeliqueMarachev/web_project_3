@@ -223,12 +223,21 @@
 }
 
 @media screen and (max-width: 360px) {
+  .places__container {
+    padding-bottom: 0;
+  }
+
+  .places__container:last-child {
+    padding-bottom: 64px;
+  }
+
   .places__title {
     max-width: 288px;
   }
-  
+
   .places__website-title {
     margin-top: 0;
+    margin-bottom: 8px;
   }
 
   .places__image {
@@ -237,5 +246,9 @@
 
   .places__description {
     margin-top: 30px;
+  }
+
+  .places__button {
+    padding: 13px 40px;
   }
 }
