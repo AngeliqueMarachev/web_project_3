@@ -22,5 +22,5 @@ In the future, I plan on updating the information and images to create a 100% un
 
 ## Github link
 
-https://github.com/AngeliqueMarachev/web_project_3
+https://angeliquemarachev.github.io/web_project_3/
   
