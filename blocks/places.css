@@ -186,13 +186,13 @@
   }
 
   .places__container:last-child {
-    padding-bottom: 77px;
+    padding-bottom: 64px;
   }
 
   .places__title {
     font-size: 32px;
     line-height: 35px;
-    margin-top: 50px;
+    margin-top: 0;
     margin-bottom: 30px;
     margin-left: 16px;
   }
