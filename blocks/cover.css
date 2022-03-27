@@ -4,7 +4,7 @@
 }
 
 .cover__item {
-  min-height: 740px;
+  max-height: 740px;
   width: 100%;
   font-weight: normal;
   font-style: normal;
@@ -43,8 +43,8 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  margin-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: 14px;
+  margin-top: 0;
   z-index: 2;
 }
 
@@ -56,6 +56,8 @@
   white-space: pre-line;
   margin: auto;
   opacity: 1;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .cover__button {
@@ -73,7 +75,7 @@
   width: max-content;
   height: max-content;
   border-style: none;
-  margin-top: 61px;
+  margin-top: 14px;
   min-width: 97px;
 }
 
@@ -84,13 +86,10 @@
   }
 
   .cover__item {
+    max-height: 746px;
     margin: 0 auto;
     padding-left: 56px;
     padding-right: 56px;
-  }
-
-  .cover__address {
-    padding-bottom: 32px;
   }
 
   .cover__button {
@@ -99,14 +98,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  .cover {
-    min-width: 320px;
-    min-height: 254px;
-  }
-
   .cover__item {
-    min-width: 320px;
-    min-height: 254px;
+    max-height: 254px;
     padding: 45px 16px 46px;
   }
 
@@ -120,6 +113,8 @@
     font-size: 32px;
     line-height: 35px;
     margin: auto;
+    margin-top: 46px;
+    margin-bottom: 14px;
   }
 
   .cover__address {
@@ -130,6 +125,6 @@
   }
 
   .cover__button {
-  margin-top: 16px;
+    margin-top: 16px;
   }
 }

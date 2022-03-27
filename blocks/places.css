@@ -30,7 +30,6 @@
   margin-top: 80px;
   margin-bottom: 0;
   grid-area: title;
-  max-width: calc(460px / 2);
 }
 
 .places__website {
@@ -139,7 +138,7 @@
       "image description"
       "button description"
       ". description";
-    padding-bottom: 49px;
+    padding-bottom: 50px;
   }
 
   .places__title {
