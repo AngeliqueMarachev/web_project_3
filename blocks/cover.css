@@ -6,7 +6,7 @@
 }
 
 .cover__item {
-  max-height: 740px;
+  min-height: 740px;
   width: 100%;
   font-weight: normal;
   font-style: normal;
@@ -27,7 +27,7 @@
 
 .cover__item::before {
   content: "";
-  background: #2a2c2c2f;
+  background:#2A2C2F;
   opacity: 0.3;
   position: absolute;
   top: 0;
@@ -89,7 +89,6 @@
   }
 
   .cover__item {
-    max-height: 746px;
     margin: 0 auto;
     padding-left: 56px;
     padding-right: 56px;
@@ -102,7 +101,7 @@
 
 @media screen and (max-width: 600px) {
   .cover__item {
-    max-height: 254px;
+    min-height: 254px;
     padding: 46px 16px 45px;
   }
 
