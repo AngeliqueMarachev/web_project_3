@@ -1,6 +1,8 @@
 .cover {
   padding-left: 48px;
   padding-right: 48px;
+  max-width: 1184px;
+  margin: 0 auto;
 }
 
 .cover__item {
@@ -13,6 +15,7 @@
   background-image: url(../images/cover.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;

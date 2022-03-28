@@ -228,7 +228,7 @@
   }
 
   .places__container:last-child {
-    padding-bottom: 64px;
+    padding-bottom: 14px;
   }
 
   .places__title {
@@ -250,5 +250,7 @@
 
   .places__button {
     padding: 13px 40px;
+    margin-bottom: 50px;
   }
+
 }

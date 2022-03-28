@@ -58,11 +58,10 @@
     font-size: 40px;
     line-height: 44px;
     padding-top: 51px;
-    padding-bottom: 40px;
   }
 
   .lead__subtitle {
-    min-width: 288px;
+    max-width: 288px;
     font-size: 16px;
     line-height: 20px;
     padding-top: 16px;
